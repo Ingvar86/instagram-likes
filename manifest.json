@@ -1,0 +1,14 @@
+{
+  "name": "A browser action with a popup that put likes on instagram",
+  "description": "Put certain amount of likes",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+      "default_title": "Instagram likes",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
